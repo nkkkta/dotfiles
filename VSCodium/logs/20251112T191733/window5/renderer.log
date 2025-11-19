@@ -1,0 +1,8 @@
+2025-11-12 20:56:51.097 [info] Started local extension host with pid 37548.
+2025-11-12 20:56:52.304 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-12 20:56:53.714 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-11-12 20:56:55.384 [info] [perf] Render performance baseline is 77ms
+2025-11-12 21:08:01.817 [error] [Extension Host] (node:37548) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

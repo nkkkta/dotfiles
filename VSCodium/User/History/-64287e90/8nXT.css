@@ -1,0 +1,31 @@
+body{
+    border: .1em solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 8em 1fr;
+    border: .1em solid black;
+}
+
+.container-header{
+    text-align: center;
+}
+
+.data ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    /* margin-left: -40px; */
+    text-align: center;
+    border: .1em solid black;
+
+}
+
+.status{
+    list-style: circle;
+    border-left: .1em solid black;
+
+}
+
+

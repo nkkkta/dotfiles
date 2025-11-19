@@ -1,0 +1,11 @@
+2025-11-14 20:36:16.173 [info] Revived process, old id 5ca493f950317b8d5e2840b7c8daadd0-2 -> new id 1
+2025-11-14 20:36:16.173 [info] Revived process, old id 5ca493f950317b8d5e2840b7c8daadd0-3 -> new id 2
+2025-11-14 20:36:17.032 [info] Expanding terminal instance, old id 5ca493f950317b8d5e2840b7c8daadd0-2 -> new id 1
+2025-11-14 20:36:17.033 [info] Expanding terminal instance, old id 5ca493f950317b8d5e2840b7c8daadd0-3 -> new id 2
+2025-11-14 20:36:18.791 [warning] Persistent process "1": Process had no disconnect runners but was an orphan
+2025-11-14 20:36:18.791 [info] Persistent process reconnection "1"
+2025-11-14 20:36:18.795 [warning] Persistent process "2": Process had no disconnect runners but was an orphan
+2025-11-14 20:36:18.795 [info] Persistent process reconnection "2"
+2025-11-14 20:36:19.161 [error] Failed to set sticky bit on /tmp/nkkkta-codium-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/nkkkta-codium-zsh'
+2025-11-14 20:36:19.261 [info] Persistent process "1": Replaying 10799 chars and 1 size events
+2025-11-14 20:36:19.372 [info] Persistent process "2": Replaying 1750 chars and 1 size events

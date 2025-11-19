@@ -1,0 +1,30 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+.tabs{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    &__item{
+        .content{
+            display: none;
+        }
+        &--active{
+            display: block;
+            .title{
+                text-decoration: underline;
+            }
+            .content{
+                position: absolute;
+                top: 60px;
+                left: 0;
+            }
+
+        }
+    }
+}
+
+
+
+

@@ -1,0 +1,17 @@
+body{
+    border: .1em solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 8em 1fr;
+    border: .1em solid black;
+}
+
+.container-header{
+    text-align: center;
+}
+
+.data{
+    display: grid;
+}

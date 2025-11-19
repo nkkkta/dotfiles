@@ -1,0 +1,10 @@
+@use 'mixins';
+
+.block{
+    &-title{
+        font-size: 16px;
+    }
+    &-desc{
+        font-size: 10px;
+    }
+}

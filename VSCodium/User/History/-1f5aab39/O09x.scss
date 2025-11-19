@@ -1,0 +1,9 @@
+//RESTAURANT
+
+.restaurant-block{
+    margin-top: 40px;
+}
+
+.restaurant-title{
+    @include font(32px, 700, 1.2)
+}

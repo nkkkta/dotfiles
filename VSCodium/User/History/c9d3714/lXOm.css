@@ -1,0 +1,256 @@
+@import url('colors.css');
+
+html{
+    color-scheme: light;
+    --primary-color: var(--cold-sea-200);
+    --secondary-color: var(--cold-sea-300);
+    --accent-color: var(--accent-color);
+    --text-dark: var(--neutral-800);
+    --text-lighter: var(--neutral-100);
+    --text-light: var(--neutral-100);
+    --background-light: var(--neutral-200);
+    --background-dark: var(--neutral-600);
+    accent-color: var(--accent-color);
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    /* background: linear-gradient(var(--gradient-2), var(--gradient-1)); */
+    background: var(--gradient-primary-inv);
+    min-height: 100vh;
+    margin: 0;
+    color: var(--text-dark);
+}
+
+.main-header{
+    padding: .5em;
+    text-align: center;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: "/";
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+}
+
+.home-main{
+    flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    grid-auto-rows: minmax(10em, .5fr);
+    gap: .75em;
+    margin: 0 .5em 3em .5em;
+}
+
+.project-main{
+    flex: 1 0 auto;
+}
+
+.project-main section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    grid-auto-rows: minmax(10em, 1fr);
+    gap: .75em;
+    margin: 0 .5em 3em .5em;
+}
+
+.article-main{
+    flex: 1 0 auto;
+}
+
+.article-main section{
+    flex: 1 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: minmax(200px, 1fr);
+    gap: .75em;
+    margin: 0 .5em 3em .5em;
+}
+
+.contact-main{
+    flex: 1 0 auto;
+}
+
+.contact-main section article{
+    padding: 2em;
+    background: var(--gradient-secondary);
+    margin: 0 .5em 3em .5em;
+}
+
+.home-main section{
+    padding: 1em;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+
+}
+
+
+.project-main section article{
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    padding: 2em;
+}
+
+.article-main section article{
+    padding: 2em;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+}
+
+.card-component{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-component header{
+    flex: 1;
+}
+
+.card-component img{
+    flex: 1;
+}
+
+footer{
+    position: relative;
+    font-size: 0.75rem;
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    padding-bottom: 1em;
+}
+
+footer nav{
+    display: flex;
+    padding: 0 1em 0;
+}
+
+footer nav ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+    color: var(--text-dark);
+}
+
+a:hover{
+    color: var(--accent-color);
+}
+
+article ul li{
+    list-style: square;
+}
+
+img{
+    display: block;
+    block-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-inline-size: 25%;
+}
+
+input,textarea{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    border: none;
+    margin: .75em;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn{
+    padding: 1em;
+}
+
+@media(pointer: coarse){
+    .submit-btn{
+        padding: 1em;
+        text-align: center;
+    }
+
+    input, textarea{
+        height: 4em;
+    }
+
+    .nav-bar ul li{
+        padding: .5em;
+    }
+
+    .nav-bar ul li a{
+        padding: .9em;
+    }
+
+}
+
+
+@media (max-width: 600px){
+    .nav-bar ul{ 
+        /* display: flex; */
+        flex-direction: column;
+        gap: 5px;
+        /* list-style: none;
+        margin-left: -40px; */
+    }
+
+    footer nav{
+        /* display: flex; */
+        flex-direction: column;
+        gap: 5px;
+        /* flex-wrap: flow-wrap;
+        border: 2px solid;
+        padding: 0 40px 0; */
+    }
+
+    img{
+        max-inline-size: 50%;
+    }
+}
+
+@media (max-width: 500px){
+    body{
+        font-size: .75rem;
+    }
+}
+
+/* @media (prefers-color-scheme: dark){
+    html{
+        color-scheme: dark;
+    }
+    
+    body{
+        background-color: var(--b-700);
+        color: var(--b-100);
+        
+    }
+
+    .main-header{
+        background-color: var(--g-700);
+        border-color: var(--g-700);
+    }
+
+    img{
+        filter: brightness(.8) contrast(1.2);
+    }
+}
+
+@media (prefers-color-scheme: light){
+    body{
+        background-color: var(--b-100);
+        color: var(--b-500);
+    }
+} */
+
+
+
+
+
+
+

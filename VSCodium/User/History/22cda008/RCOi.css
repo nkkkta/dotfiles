@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+.pre-header{
+    background-color: rgba(36, 36, 36, 1);
+    height: 3.1 em;
+}
+
+.pre-header a{
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 300;
+}
+

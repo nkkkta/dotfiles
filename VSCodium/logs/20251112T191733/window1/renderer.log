@@ -1,0 +1,24 @@
+2025-11-12 19:17:37.011 [info] Started local extension host with pid 5674.
+2025-11-12 19:17:44.561 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-11-12 19:17:45.208 [info] [perf] Render performance baseline is 186ms
+2025-11-12 19:17:47.331 [warning] [backup tracker] suspended, ignoring unregister event file:///home/nkkkta/Documents/codebase/grid-gallery/package.json 
+2025-11-12 19:17:48.702 [info] Started local extension host with pid 6054.
+2025-11-12 19:17:49.675 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-11-12 19:17:50.263 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-11-12 19:17:51.614 [info] [perf] Render performance baseline is 84ms
+2025-11-12 19:38:30.366 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Op._updateChildren (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:429:33593)
+    at Op.updateChildren (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:429:33270)
+    at Pae.value (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2620:40584)
+    at k._deliver (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2956)
+    at k._deliverQueue (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:29:3047)
+    at k.fire (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:29:3384)
+    at _0e.setVisible (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:569:3720)
+    at vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:595:17535
+    at Array.map (<anonymous>)
+    at Xh.setVisible (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:595:17526)
+2025-11-12 20:33:56.243 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /home/nkkkta/Documents/codebase/codeigniter-test)

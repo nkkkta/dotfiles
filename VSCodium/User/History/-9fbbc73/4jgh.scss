@@ -1,0 +1,118 @@
+// @use 'bootstrap/scss/bootstrap';
+// @use 'bootstrap-icons/font/bootstrap-icons.css';
+@use 'base/reset';
+@use 'components/preheader';
+@use 'components/header';
+@use 'components/searchbox';
+@use 'components/category_slider';
+@use 'vendors/owl/owl.carousel';
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+}
+
+// html{
+//     background-image: url(../img/Главная.png);
+//     background-position: center;
+// }
+
+
+
+.offer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #F3F6F9;
+    background-image: linear-gradient(90deg,#242424, #24242400), url("../img/stock-laptop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    // margin-bottom: 120px;
+    .content{
+        grid-column: 1 / 1;
+        display: flex;
+        flex-direction: column;
+        margin: 58px 0 87px 95px;
+        .content__header{
+            font-weight: 700;
+            font-size: 44px;
+            padding-right: 55px;
+            margin-bottom: 18px;
+            margin-top: 0;
+        }
+        .content__description{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .content__button{
+            padding: 16px 20px;
+            background-color: #B71B34;
+            color: #FFFFFF;
+            border: none;
+            font-weight: 700;
+            font-size: 20px;
+            width: 50%;
+        }
+    }
+}
+
+
+
+// /* feature */
+
+// /* Auto layout */
+// display: flex;
+// flex-direction: column;
+// align-items: flex-start;
+// padding: 0px;
+// gap: 12px;
+
+// width: 300px;
+// height: 135px;
+
+
+// /* Inside auto layout */
+// flex: none;
+// order: 0;
+// flex-grow: 0;
+
+.features{
+    margin: 0 -10rem;
+    background-color: #F3F6F9;
+    .feature--list{
+        display: flex;
+        list-style: none;
+        padding: 60px 10rem;
+        gap: 12px;
+        .feature{
+            display: flex;
+            gap: 12px;
+            padding: 0;
+            flex: 1;
+            .feature--icon{
+                align-self: flex-start;
+            }
+            .feature--content{
+                display: flex;
+                flex-direction: column;
+                .feature--header{
+                    align-self: flex-start;
+                    font-weight: 500;
+                    font-size: 20px;
+                    margin: 0px;
+                }
+                .feature--description{
+                    font-weight: 300;
+                    line-height: 1.6;
+                    font-size: 16px;
+                    line-height: 160%;
+                }
+            }
+        }
+    }
+}

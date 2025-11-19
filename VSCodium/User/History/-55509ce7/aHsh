@@ -1,0 +1,9 @@
+/assets/uploads/*
+/applications/config/database.php
+!/assets/uploads/settings
+!/assets/uploads/nophoto
+**/desktop.ini
+/.idea
+/vendor
+/*.zip
+/html

@@ -1,0 +1,20 @@
+{
+  "name": "work-layout-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch styles/scss:styles/css",
+    "start": "http-server -c-1",
+"c    "dev": oncurrently \"npm run sass\" \"browser-sync start --server --files '**/*.html, styles/css/*.css'\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "http-server": "^14.1.1",
+    "sass": "^1.93.2"
+  }
+}

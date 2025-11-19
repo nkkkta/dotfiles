@@ -1,0 +1,31 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+    --google-cyan: #3971ed;
+}
+
+body{
+    background-color: var(--google-white);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.box{
+    float: right;
+    margin-left: 15px;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    background-color: var(--google-blue);
+    padding: 1em;
+}
+

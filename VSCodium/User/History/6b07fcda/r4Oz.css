@@ -1,0 +1,13 @@
+:root {
+    --dark-pink: #8B008B;
+    --saturated-pink: #FF1493;
+    --light-pink: #C71585;
+}
+
+#lighter{
+    fill: var(--light-pink);
+}
+
+#darker{
+    fill: var(--dark-pink);
+}

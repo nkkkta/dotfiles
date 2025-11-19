@@ -1,0 +1,13 @@
+.product-slider{
+    .owl-carousel{
+        .product-item{
+            .product-data{
+                display: flex;
+                justify-content: space-between;
+                .stars{
+                    color: yellow;
+                }
+            }
+        }
+    }
+}

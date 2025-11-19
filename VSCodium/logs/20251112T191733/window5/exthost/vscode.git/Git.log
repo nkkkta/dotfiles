@@ -1,0 +1,125 @@
+2025-11-12 20:56:53.647 [info] [main] Log level: Info
+2025-11-12 20:56:53.647 [info] [main] Validating found git in: "git"
+2025-11-12 20:56:53.647 [info] [main] Using git "2.51.1" from "git"
+2025-11-12 20:56:53.647 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-12 20:56:53.647 [info] > git rev-parse --show-toplevel [22ms]
+2025-11-12 20:56:53.647 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:53.647 [info] > git rev-parse --show-toplevel [14ms]
+2025-11-12 20:56:53.647 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:53.647 [info] > git rev-parse --show-toplevel [7ms]
+2025-11-12 20:56:53.647 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:53.667 [info] > git rev-parse --show-toplevel [33ms]
+2025-11-12 20:56:53.667 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:53.678 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-12 20:56:53.678 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:53.680 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-12 20:56:53.752 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-12 20:56:53.752 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:56:54.490 [info] > git rev-parse --show-toplevel [17ms]
+2025-11-12 20:56:54.490 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:57:23.489 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-12 20:57:23.489 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:57:24.631 [info] > git rev-parse --show-toplevel [11ms]
+2025-11-12 20:57:24.632 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:57:41.107 [info] > git rev-parse --show-toplevel [3ms]
+2025-11-12 20:57:41.107 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 20:57:43.299 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-12 20:57:43.300 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 21:08:00.324 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-12 21:08:00.324 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-12 21:08:29.061 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-12 21:08:29.092 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [11ms]
+2025-11-12 21:08:29.128 [info] [Model][openRepository] Opened repository (path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-12 21:08:29.128 [info] [Model][openRepository] Opened repository (real path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-12 21:08:29.128 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-12 21:08:29.149 [info] > git config --get commit.template [9ms]
+2025-11-12 21:08:29.157 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-12 21:08:29.160 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-11-12 21:08:29.160 [warning] [Git][getBranch] No such branch: main
+2025-11-12 21:08:29.196 [info] > git status -z -uall [28ms]
+2025-11-12 21:08:29.211 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-11-12 21:08:29.517 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [262ms]
+2025-11-12 21:08:29.517 [warning] [Git][getBranch] No such branch: main
+2025-11-12 21:08:29.518 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-11-12 21:08:29.539 [info] > git config --get commit.template [29ms]
+2025-11-12 21:08:29.555 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-12 21:08:29.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-12 21:08:29.559 [warning] [Git][getBranch] No such branch: main
+2025-11-12 21:08:29.586 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-12 21:08:29.591 [info] > git status -z -uall [23ms]
+2025-11-12 21:08:29.747 [info] > git check-ignore -v -z --stdin [8ms]
+2025-11-12 21:08:40.693 [info] > git config --get commit.template [4ms]
+2025-11-12 21:08:40.710 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-12 21:08:40.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-11-12 21:08:40.714 [warning] [Git][getBranch] No such branch: main
+2025-11-12 21:08:40.740 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-11-12 21:08:40.754 [info] > git status -z -uall [29ms]
+2025-11-12 21:08:41.335 [info] > git show --textconv :README.md [7ms]
+2025-11-12 21:08:41.354 [info] > git show --textconv HEAD:README.md [20ms]
+2025-11-12 21:08:41.355 [info] > git ls-files --stage -- README.md [10ms]
+2025-11-12 21:08:41.371 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [9ms]
+2025-11-12 21:08:41.372 [info] > git ls-tree -l HEAD -- README.md [20ms]
+2025-11-12 21:08:41.372 [info] fatal: Not a valid object name HEAD
+2025-11-12 21:08:41.381 [info] > git hash-object -t tree /dev/null [12ms]
+2025-11-12 21:08:41.381 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2FREADME.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-11-12 21:08:41.386 [info] > git hash-object -t tree /dev/null [5ms]
+2025-11-12 21:08:41.386 [warning] [GitFileSystemProvider][stat] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/README.md.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2FREADME.md%22%2C%22ref%22%3A%22HEAD%22%7D
+2025-11-12 21:08:41.844 [info] > git ls-files --stage -- README.md [5ms]
+2025-11-12 21:08:41.868 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [7ms]
+2025-11-12 21:08:41.893 [info] > git show --textconv :README.md [6ms]
+2025-11-12 21:08:51.664 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-12 21:08:51.668 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-12 21:08:51.668 [info] > git config --get commit.template [17ms]
+2025-11-12 21:08:51.693 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-12 21:08:51.698 [info] > git status -z -uall [17ms]
+2025-11-12 21:08:52.615 [info] [Git][getRemotes] No remotes found in the git config file
+2025-11-12 21:08:52.619 [info] > git config --get commit.template [45ms]
+2025-11-12 21:08:52.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-11-12 21:08:52.655 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-12 21:08:52.671 [info] > git status -z -uall [36ms]
+2025-11-12 21:08:52.680 [info] > git ls-files --stage -- README.md [11ms]
+2025-11-12 21:08:52.691 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-11-12 21:08:52.706 [info] > git show --textconv :README.md [3ms]
+2025-11-12 21:09:22.412 [info] > git config --get commit.template [42ms]
+2025-11-12 21:09:22.423 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2025-11-12 21:09:22.455 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2025-11-12 21:09:22.463 [info] > git status -z -uall [26ms]
+2025-11-12 21:09:22.469 [info] > git ls-files --stage -- README.md [6ms]
+2025-11-12 21:09:22.480 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-11-12 21:09:22.490 [info] > git show --textconv :README.md [3ms]
+2025-11-12 21:09:37.956 [info] > git config --get commit.template [13ms]
+2025-11-12 21:09:37.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-11-12 21:09:37.985 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-12 21:09:37.993 [info] > git status -z -uall [24ms]
+2025-11-12 21:09:38.010 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-11-12 21:09:38.028 [info] > git diff --name-status -z --diff-filter=ADMR 281170009cb00165ccda93759972f2c9e0a7bc89...refs/remotes/origin/main [8ms]
+2025-11-12 21:09:38.967 [info] > git config --get commit.template [23ms]
+2025-11-12 21:09:38.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-11-12 21:09:38.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-12 21:09:39.000 [info] > git status -z -uall [20ms]
+2025-11-12 21:09:39.015 [info] > git ls-files --stage -- README.md [2ms]
+2025-11-12 21:09:39.022 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [1ms]
+2025-11-12 21:09:39.036 [info] > git show --textconv :README.md [6ms]
+2025-11-12 21:20:50.029 [info] > git show --textconv :readme.rst [25ms]
+2025-11-12 21:20:50.038 [info] > git ls-files --stage -- readme.rst [15ms]
+2025-11-12 21:20:50.069 [info] > git cat-file -s 63a55c3f46ef7b9589ead511c3a3f2cde0196fb7 [5ms]
+2025-11-12 21:21:02.999 [info] > git blame --root --incremental 281170009cb00165ccda93759972f2c9e0a7bc89 -- readme.rst [11ms]
+2025-11-12 21:23:29.633 [info] > git show --textconv :README.md [10ms]
+2025-11-12 21:23:29.635 [info] > git ls-files --stage -- README.md [2ms]
+2025-11-12 21:23:29.645 [info] > git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 [3ms]
+2025-11-12 21:23:57.205 [info] > git show --textconv :composer.lock [43ms]
+2025-11-12 21:23:57.206 [info] > git ls-files --stage -- composer.lock [8ms]
+2025-11-12 21:23:57.221 [info] > git cat-file -s d6dd51c9adc5d9f0f48b819f7d3daabaf29c1910 [4ms]
+2025-11-12 21:34:09.492 [info] > git blame --root --incremental 281170009cb00165ccda93759972f2c9e0a7bc89 -- composer.lock [5ms]

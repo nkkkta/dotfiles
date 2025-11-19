@@ -1,0 +1,22 @@
+body{
+    border: 2px solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 8em 1fr;
+    border: 2px solid black;
+}
+
+.records{
+    border: 2px solid black;
+}
+.meta-info{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.record{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

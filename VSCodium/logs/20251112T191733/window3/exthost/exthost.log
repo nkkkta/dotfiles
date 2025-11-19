@@ -1,0 +1,20 @@
+2025-11-12 20:19:14.748 [info] Extension host with pid 29030 started
+2025-11-12 20:19:14.748 [info] Skipping acquiring lock for /home/nkkkta/.config/VSCodium/User/workspaceStorage/cd0c8ebf3e3c7d0a87f6b7252b658bc4.
+2025-11-12 20:19:15.285 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-12 20:19:15.360 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2025-11-12 20:19:16.162 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-12 20:19:16.243 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-12 20:19:16.365 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-12 20:19:17.051 [info] Eager extensions activated
+2025-11-12 20:19:17.341 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-11-12 20:19:17.631 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-12 20:19:17.673 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-12 20:19:17.799 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2025-11-12 20:19:17.872 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-11-12 20:19:18.148 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-11-12 20:19:19.055 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-11-12 20:19:23.801 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-11-12 20:19:30.113 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-11-12 20:19:35.461 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-11-12 21:34:12.381 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-12 21:34:12.425 [info] Extension host with pid 29030 exiting with code 0

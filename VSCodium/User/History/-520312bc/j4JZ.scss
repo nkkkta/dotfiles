@@ -1,0 +1,38 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+
+
+.pre-header-container{
+    background-color: v.$secondary-color;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100vh;
+    z-index: 100;
+    .pre-header {
+        @include m.hflex;
+        padding: 1rem 4rem;
+        font-weight: 300;
+        @media (max-width: v.$mobile-bp){
+            padding: 1rem 1rem;
+            flex-direction: row-reverse;
+        }
+
+        &__left{
+            @include m.hflex(40px);
+            @media (max-width: v.$mobile-bp){
+                display: none;
+            }
+        }
+        &__right{
+            @include m.hflex(40px);
+            .login{
+                @include m.hflex(40px);
+            }
+            .register-profile{
+                @include m.hflex(20px);
+            }
+        }
+    }
+}
+

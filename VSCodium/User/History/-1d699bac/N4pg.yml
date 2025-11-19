@@ -1,0 +1,6 @@
+services:
+  php-app:
+    build: .
+    ports: 
+      - "8080:80"
+    container_name: "kentavr"

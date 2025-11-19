@@ -1,0 +1,14 @@
+{
+  "name": "Google Theme",
+  "version": "1.0.0",
+  "engines": { "vscode": "^1.75.0" },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Google Theme",
+        "uiTheme": "vs-dark",
+        "path": "~/Downloads/google-theme.json"
+      }
+    ]
+  }
+}

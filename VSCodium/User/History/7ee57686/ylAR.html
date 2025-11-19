@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C днем рождения тебя ёпта!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow-x: hidden;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            margin: 20px;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            animation: colorChange 5s infinite alternate;
+        }
+        
+        .age-container {
+            position: relative;
+            margin: 40px 0;
+        }
+        
+        .age {
+            font-size: 10rem;
+            font-weight: bold;
+            color: #FFD700;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+            line-height: 1;
+            transition: transform 0.5s;
+            margin-bottom: 20px;
+        }
+        
+        .age:hover {
+            transform: scale(1.1) rotate(5deg);
+        }
+        
+        .question-marks {
+            font-size: 5rem;
+            position: absolute;
+            top: -30px;
+            right: -50px;
+            animation: bounce 2s infinite;
+        }
+        
+        .message {
+            font-size: 1.8rem;
+            line-height: 1.6;
+            margin: 40px 0;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 25px;
+            border-radius: 15px;
+            position: relative;
+        }
+        
+        .message::before {
+            content: """;
+            font-size: 5rem;
+            position: absolute;
+            top: -20px;
+            left: 10px;
+            opacity: 0.3;
+        }
+        
+        .button {
+            background: linear-gradient(to right, #FF512F, #DD2476);
+            border: none;
+            padding: 18px 50px;
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: white;
+            border-radius: 50px;
+            cursor: pointer;
+            margin: 30px 0;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+        
+        .counter {
+            font-size: 1.4rem;
+            margin: 20px 0;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px 30px;
+            border-radius: 50px;
+            display: inline-block;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        .balloon {
+            position: absolute;
+            width: 50px;
+            height: 60px;
+            border-radius: 50%;
+            z-index: -1;
+        }
+        
+        .balloon::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 20px;
+            background: rgba(255, 255, 255, 0.5);
+        }
+        
+        @keyframes colorChange {
+            0% { color: #FFD700; }
+            25% { color: #FF6B6B; }
+            50% { color: #4ECDC4; }
+            75% { color: #FF9FF3; }
+            100% { color: #FEA47F; }
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-25px); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+        }
+        
+        @keyframes floatBalloon {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-15px) rotate(3deg); }
+        }
+        
+        .floating {
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 2.5rem; }
+            .age { font-size: 6rem; }
+            .question-marks { font-size: 3rem; top: -15px; right: -30px; }
+            .message { font-size: 1.4rem; padding: 20px; }
+            .button { padding: 15px 35px; font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>С Днем Рождения, Артем!</h1>
+        
+        <div class="age-container">
+            <div class="age">20</div>
+            <div class="question-marks">???</div>
+        </div>
+        
+        <p class="message">
+            Поздравляем с 20-ти с чем-то летием! В этом возрасте уже можно всё,<br>
+            но еще не со всем понятно... Желаем найти золотую середину!<br>
+            Пусть в твоей жизни будет много достижений, крутых идей и отличной компании!
+        </p>
+        
+        <button class="button" id="confettiBtn">Запустить конфетти!</button>
+        
+        <div class="counter">
+            Ты празднуешь уже: <span id="seconds">0</span> секунд
+        </div>
+    </div>
+    
+    <div class="footer">
+        Создано с ❤️ для самого крутого Артема
+    </div>
+
+    <canvas id="confettiCanvas" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9999;"></canvas>
+
+    <script>
+        // Таймер празднования
+        const secondsEl = document.getElementById('seconds');
+        let seconds = 0;
+        
+        setInterval(() => {
+            seconds++;
+            secondsEl.textContent = seconds;
+        }, 1000);
+        
+        // Конфетти
+        const confettiBtn = document.getElementById('confettiBtn');
+        const canvas = document.getElementById('confettiCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        
+        let confettiParticles = [];
+        const colors = ['#FFD700', '#FF6B6B', '#4ECDC4', '#FF9FF3', '#FEA47F', '#6A0DAD', '#00CC99'];
+        
+        class Confetti {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height - canvas.height;
+                this.size = Math.random() * 10 + 5;
+                this.color = colors[Math.floor(Math.random() * colors.length)];
+                this.speed = Math.random() * 3 + 2;
+                this.angle = Math.random() * 360;
+                this.spin = Math.random() < 0.5 ? 1 : -1;
+            }
+            
+            update() {
+                this.y += this.speed;
+                this.x += Math.sin(this.angle) * 2;
+                this.angle += this.spin * 0.1;
+                
+                if (this.y > canvas.height) {
+                    this.y = 0;
+                    this.x = Math.random() * canvas.width;
+                }
+            }
+            
+            draw() {
+                ctx.beginPath();
+                ctx.fillStyle = this.color;
+                ctx.save();
+                ctx.translate(this.x, this.y);
+                ctx.rotate(this.angle * Math.PI/180);
+                ctx.fillRect(-this.size/2, -this.size/2, this.size, this.size);
+                ctx.restore();
+            }
+        }
+        
+        function createConfetti() {
+            for (let i = 0; i < 100; i++) {
+                confettiParticles.push(new Confetti());
+            }
+        }
+        
+        function animateConfetti() {
+            requestAnimationFrame(animateConfetti);
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            for (let i = 0; i < confettiParticles.length; i++) {
+                confettiParticles[i].update();
+                confettiParticles[i].draw();
+            }
+            
+            // Удаляем старые частицы для оптимизации
+            if (confettiParticles.length > 500) {
+                confettiParticles = confettiParticles.slice(100);
+            }
+        }
+        
+        confettiBtn.addEventListener('click', () => {
+            createConfetti();
+            setTimeout(() => {
+                createConfetti();
+            }, 300);
+            setTimeout(() => {
+                createConfetti();
+            }, 600);
+        });
+        
+        // Запускаем анимацию конфетти
+        animateConfetti();
+        
+        // Создаем воздушные шарики
+        function createBalloons() {
+            const container = document.querySelector('.container');
+            const colors = ['#FF6B6B', '#4ECDC4', '#FF9FF3', '#FEA47F', '#FFD700'];
+            
+            for (let i = 0; i < 12; i++) {
+                const balloon = document.createElement('div');
+                balloon.classList.add('balloon');
+                balloon.style.left = `${Math.random() * 100}%`;
+                balloon.style.top = `${Math.random() * 100}%`;
+                balloon.style.background = colors[Math.floor(Math.random() * colors.length)];
+                balloon.style.animation = `floatBalloon ${4 + Math.random() * 4}s ease-in-out infinite`;
+                balloon.style.animationDelay = `${Math.random() * 2}s`;
+                container.appendChild(balloon);
+            }
+        }
+        
+        createBalloons();
+        
+        // Изменяем размер canvas при изменении размера окна
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+body{
+    margin: auto 2em;
+}
+
+
+.alphabet{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 2px;
+}
+
+.symbol{
+    border: .1em solid black;
+    text-align: center;
+}

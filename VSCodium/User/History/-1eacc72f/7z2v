@@ -1,0 +1,10 @@
+/.idea
+/.vscode
+/*.zip
+/Dockerfile
+docker-compose.yml
+package.json
+package-lock.json
+node_modules
+nginx.conf
+GEMINI.md

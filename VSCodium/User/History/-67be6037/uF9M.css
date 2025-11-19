@@ -1,0 +1,14 @@
+@import url('colors.css');
+
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--anderson-darlington-white)
+}
+
+.block-a{
+    background-color: var(--anderson-bees-wax-yellow);
+}
+
+

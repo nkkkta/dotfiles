@@ -1,0 +1,10 @@
+/assets/uploads/*
+!/assets/uploads/settings
+!/assets/uploads/nophoto
+**/desktop.ini
+/.idea
+/cgi-bin
+/yandex*
+/google*
+Dockerfile
+docker-compose.yml

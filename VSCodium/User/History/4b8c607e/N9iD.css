@@ -1,0 +1,14 @@
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    background: linear-gradient(white, gray);
+    padding: 15px;
+    border-radius: 15px;
+}

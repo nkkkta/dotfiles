@@ -1,0 +1,38 @@
+body{
+    border: .1em solid black;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 8em 1fr;
+    border: .1em solid black;
+}
+
+.records{
+    border: .1em solid black;
+}
+.meta-info{
+    text-align: center;
+    border: .1em solid black;
+}
+
+.records{
+    display: flex;
+    flex-direction: column;
+    border: .1em solid brown ;
+}
+
+.record{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border: .1em solid brown ;
+}
+
+.date{
+    border: 2px solid brown ;
+}
+
+.status{
+    border: 2px solid brown;
+}

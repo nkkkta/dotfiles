@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+@import 'reset';
+
+.tabs{
+    display: flex;
+    gap: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    height: 200px;
+    &__item{
+        .content{
+            display: none;
+        }
+        &--active{
+            .title{
+                text-decoration: underline;
+            }
+            .content{
+                display: block;
+                padding: 10px 20px;
+                position: absolute;
+                top: 60px;
+                left: 0;
+            }
+
+        }
+    }
+}
+
+
+
+

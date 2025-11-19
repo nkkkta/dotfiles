@@ -1,0 +1,99 @@
+2025-11-13 19:16:43.038 [info] [main] Log level: Info
+2025-11-13 19:16:43.038 [info] [main] Validating found git in: "git"
+2025-11-13 19:16:43.038 [info] [main] Using git "2.51.1" from "git"
+2025-11-13 19:16:43.038 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-13 19:16:43.038 [info] > git rev-parse --show-toplevel [17ms]
+2025-11-13 19:16:43.038 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [15ms]
+2025-11-13 19:16:43.038 [info] [Model][openRepository] Opened repository (path): /home/nkkkta/Documents/codebase/work/kentavr
+2025-11-13 19:16:43.038 [info] [Model][openRepository] Opened repository (real path): /home/nkkkta/Documents/codebase/work/kentavr
+2025-11-13 19:16:43.038 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-13 19:16:43.996 [info] > git rev-parse --show-toplevel [894ms]
+2025-11-13 19:16:44.000 [info] > git config --get commit.template [918ms]
+2025-11-13 19:16:44.311 [info] > git rev-parse --show-toplevel [56ms]
+2025-11-13 19:16:44.332 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2025-11-13 19:16:44.353 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nkkkta/Documents/codebase/work/kentavr/.git/refs/remotes/origin/main'
+2025-11-13 19:16:44.355 [info] > git rev-parse --show-toplevel [26ms]
+2025-11-13 19:16:44.379 [info] > git rev-parse refs/remotes/origin/main [27ms]
+2025-11-13 19:16:44.485 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [58ms]
+2025-11-13 19:16:44.489 [info] > git rev-parse --show-toplevel [114ms]
+2025-11-13 19:16:44.505 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-13 19:16:44.506 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-13 19:16:44.574 [info] > git show --textconv :application/config/autoload.php [52ms]
+2025-11-13 19:16:44.574 [info] > git ls-files --stage -- application/config/autoload.php [41ms]
+2025-11-13 19:16:44.617 [info] > git check-ignore -v -z --stdin [47ms]
+2025-11-13 19:16:44.624 [info] > git status -z -uall [222ms]
+2025-11-13 19:16:44.625 [info] > git cat-file -s b5382dcf0f552ee785239a0a21fd2cecaeac96b5 [42ms]
+2025-11-13 19:16:44.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2025-11-13 19:16:44.695 [info] > git config --get commit.template [11ms]
+2025-11-13 19:16:44.701 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
+2025-11-13 19:16:44.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-11-13 19:16:44.720 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/nkkkta/Documents/codebase/work/kentavr/.git/refs/remotes/origin/main'
+2025-11-13 19:16:44.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [10ms]
+2025-11-13 19:16:44.731 [info] > git rev-parse refs/remotes/origin/main [11ms]
+2025-11-13 19:16:44.761 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-11-13 19:16:44.763 [info] > git merge-base refs/heads/main refs/remotes/origin/main [35ms]
+2025-11-13 19:16:44.781 [info] > git diff --name-status -z --diff-filter=ADMR dd977610c23faa634a1a6265198e03d984a9caeb...refs/remotes/origin/main [6ms]
+2025-11-13 19:16:44.785 [info] > git status -z -uall [49ms]
+2025-11-13 19:17:21.738 [info] > git blame --root --incremental dd977610c23faa634a1a6265198e03d984a9caeb -- application/config/autoload.php [100ms]
+2025-11-13 19:17:23.924 [info] > git check-ignore -v -z --stdin [3ms]
+2025-11-13 19:17:24.408 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [433ms]
+2025-11-13 19:17:26.742 [info] > git show --textconv HEAD:.gitignore [18ms]
+2025-11-13 19:17:26.753 [info] > git ls-tree -l HEAD -- .gitignore [15ms]
+2025-11-13 19:17:26.847 [info] > git blame --root --incremental dd977610c23faa634a1a6265198e03d984a9caeb -- .gitignore [11ms]
+2025-11-13 19:17:32.480 [info] > git ls-tree -l HEAD -- .gitignore [11ms]
+2025-11-13 19:18:14.614 [info] > git ls-tree -l HEAD -- .gitignore [12ms]
+2025-11-13 19:18:19.843 [info] [main] Log level: Info
+2025-11-13 19:18:19.843 [info] [main] Validating found git in: "git"
+2025-11-13 19:18:19.843 [info] [main] Using git "2.51.1" from "git"
+2025-11-13 19:18:19.843 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-13 19:18:19.843 [info] > git rev-parse --show-toplevel [342ms]
+2025-11-13 19:18:19.843 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-13 19:18:19.870 [info] > git rev-parse --show-toplevel [20ms]
+2025-11-13 19:18:19.887 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2025-11-13 19:18:19.920 [info] [Model][openRepository] Opened repository (path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-13 19:18:19.920 [info] [Model][openRepository] Opened repository (real path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-13 19:18:19.920 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-13 19:18:19.925 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-13 19:18:20.779 [info] > git config --get commit.template [215ms]
+2025-11-13 19:18:20.790 [info] > git rev-parse --show-toplevel [12ms]
+2025-11-13 19:18:20.790 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-13 19:18:20.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-11-13 19:18:20.816 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-13 19:18:20.816 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-13 19:18:20.845 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-11-13 19:18:20.851 [info] > git status -z -uall [21ms]
+2025-11-13 19:18:20.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-11-13 19:18:20.898 [info] > git config --get commit.template [12ms]
+2025-11-13 19:18:20.904 [info] > git config --get --local branch.main.vscode-merge-base [8ms]
+2025-11-13 19:18:20.904 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-13 19:18:20.918 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2025-11-13 19:18:20.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2025-11-13 19:18:20.928 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-11-13 19:18:20.928 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-11-13 19:18:20.928 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-11-13 19:18:20.941 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-11-13 19:18:20.974 [info] > git status -z -uall [20ms]
+2025-11-13 19:18:20.975 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-11-13 19:18:20.976 [info] > git diff --name-status -z --diff-filter=ADMR 281170009cb00165ccda93759972f2c9e0a7bc89...refs/remotes/origin/main [28ms]
+2025-11-13 19:18:21.004 [info] > git show --textconv :nginx/nginx.conf [19ms]
+2025-11-13 19:18:21.076 [info] > git ls-files --stage -- nginx/nginx.conf [78ms]
+2025-11-13 19:18:21.082 [info] > git hash-object -t tree /dev/null [64ms]
+2025-11-13 19:18:21.083 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/nginx/nginx.conf.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2Fnginx%2Fnginx.conf%22%2C%22ref%22%3A%22%22%7D
+2025-11-13 19:18:21.189 [info] > git check-ignore -v -z --stdin [95ms]
+2025-11-13 19:18:21.191 [info] > git hash-object -t tree /dev/null [109ms]
+2025-11-13 19:18:21.191 [warning] [GitFileSystemProvider][stat] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/nginx/nginx.conf.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2Fnginx%2Fnginx.conf%22%2C%22ref%22%3A%22%22%7D
+2025-11-13 19:18:21.239 [info] > git rev-parse --show-toplevel [16ms]
+2025-11-13 19:18:21.240 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-13 19:18:21.281 [info] > git blame --root --incremental 281170009cb00165ccda93759972f2c9e0a7bc89 -- nginx/nginx.conf [3ms]
+2025-11-13 19:18:21.281 [info] fatal: no such path nginx/nginx.conf in 281170009cb00165ccda93759972f2c9e0a7bc89
+2025-11-13 19:18:25.887 [info] > git show --textconv :composer.lock [42ms]
+2025-11-13 19:18:25.934 [info] > git ls-files --stage -- composer.lock [53ms]
+2025-11-13 19:18:25.966 [info] > git cat-file -s d6dd51c9adc5d9f0f48b819f7d3daabaf29c1910 [6ms]
+2025-11-13 19:18:26.712 [info] > git show --textconv :nginx/nginx.conf [20ms]
+2025-11-13 19:18:26.713 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/nginx/nginx.conf.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2Fnginx%2Fnginx.conf%22%2C%22ref%22%3A%22%22%7D
+2025-11-13 19:18:26.716 [info] > git ls-files --stage -- nginx/nginx.conf [8ms]
+2025-11-13 19:18:26.719 [warning] [GitFileSystemProvider][stat] File not found - git:/home/nkkkta/Documents/codebase/public_html/codeigniter-test/nginx/nginx.conf.git?%7B%22path%22%3A%22%2Fhome%2Fnkkkta%2FDocuments%2Fcodebase%2Fpublic_html%2Fcodeigniter-test%2Fnginx%2Fnginx.conf%22%2C%22ref%22%3A%22%22%7D

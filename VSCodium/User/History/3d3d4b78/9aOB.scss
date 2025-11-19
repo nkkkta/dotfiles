@@ -1,0 +1,10 @@
+.container{
+    
+    &-title{
+        margin-bottom: 15px;
+        .title{
+            @include font(22px, 700);
+        }
+    }
+
+}

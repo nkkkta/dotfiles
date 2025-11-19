@@ -1,0 +1,11 @@
+@use 'mixins';
+
+.block{
+    &-title{
+        font-size: 22px;
+        font-weight: 700;
+    }
+    &-desc{
+        font-size: 10px;
+    }
+}

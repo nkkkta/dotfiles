@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    volumes:
+      - .:/var/www/html:z
+  nginx:
+    image: nginx:1.28
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - web

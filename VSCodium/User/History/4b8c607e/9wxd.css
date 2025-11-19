@@ -1,0 +1,53 @@
+
+header{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    overflow-inline: scroll ;
+    gap: 15px;
+    list-style-position: inside;
+}
+
+nav ul li{
+    flex-grow: 1;
+    /* flex-basis: 1em; */
+    background: linear-gradient(white, gray);
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 12em);
+    gap: 1em;
+}
+
+.container article{
+    background: linear-gradient(gray, white);
+    border-radius: 1em;
+}
+
+@media (max-width: 600px){
+    .container{
+        display: flex;
+        overflow-inline: scroll;
+    }
+    .container article{
+        padding: 1em;
+    }
+}
+

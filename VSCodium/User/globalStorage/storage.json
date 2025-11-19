@@ -1,0 +1,323 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "8f9b9a43aff8ae78d84d367c11f03c332f85d221092df895be95b7793fc8cf6c",
+    "telemetry.devDeviceId": "a3941866-6752-4c0d-b2df-0fd76ac7f39a",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/nkkkta/Documents/codebase/public_html/codeigniter-test"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/nkkkta/Documents/tst-proj": "__default__profile__",
+            "file:///home/nkkkta/Documents/code_learning/learning-flexbox": "__default__profile__",
+            "file:///home/nkkkta/Documents/code_learning/learning-grid": "__default__profile__",
+            "file:///home/nkkkta/Documents/code_learning/colorschemes-css": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/site-abc": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/learning-grid": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/cirriculum-vitae": "__default__profile__",
+            "file:///home/nkkkta/Documents/learning-positioning": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/learning-positioning": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/first-project-cv": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/learning-js-with-node": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/second-project-web-page": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/learning-js": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/third-project-responsive-portfolio": "__default__profile__",
+            "file:///home/nkkkta/Documents/rd-practices": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/changelog-component": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/practical-positioning-exapmles": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/happy-bday-artem": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/design-patterns": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/japanese-textbox": "__default__profile__",
+            "file:///home/nkkkta/Documents/test-task-design": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/laravel-rudz/app": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/laravel-rudz": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/todolist-js": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/nv-cms.loc": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/docker-test": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/learning-css": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/tab-component-js": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/react-test": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/todo-react": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/mr-maruda": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/ledtronix": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/laravel-docker": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/redman": "__default__profile__",
+            "file:///home/nkkkta/.cert/nm-openvpn": "__default__profile__",
+            "file:///home/nkkkta/Documents/remote/mechanic": "__default__profile__",
+            "file:///home/nkkkta/-Newspaper%209": "__default__profile__",
+            "file:///home/nkkkta/Documents/remote/mechanic/public_html/wp-content/themes/-Newspaper%209": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/ubuntu-docker": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/svg-animations": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/random_pdf_page": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/work/kentavr": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/work": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/work-layout-test": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/work/redman": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/work/pritochka-landing": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/grid-galery": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/grid-gallery": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/codeigniter-test": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/public_html": "__default__profile__",
+            "file:///home/nkkkta/Documents/codebase/public_html/codeigniter-test": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#32302f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#ebdbb2",
+            "background": "#32302f",
+            "editorBackground": "#32302f",
+            "titleBarBackground": "#32302f",
+            "activityBarBackground": "#32302f",
+            "activityBarBorder": "#3c3836",
+            "sideBarBackground": "#32302f",
+            "sideBarBorder": "#3c3836",
+            "statusBarBackground": "#32302f",
+            "statusBarBorder": "#3c3836",
+            "statusBarNoFolderBackground": "#32302f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/nkkkta/Documents/codebase/public_html/codeigniter-test",
+            "backupPath": "/home/nkkkta/.config/VSCodium/Backups/5b5720a1915926ab6fe361494d1f5e16",
+            "uiState": {
+                "mode": 1,
+                "x": 18,
+                "y": 18,
+                "width": 743,
+                "height": 809
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 223,
+            "workspaces": {
+                "816c8d1d6ffa7201737c9e15d15e62ef": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "0d95d8ed7ba256b8b467a7fc0f3a4532": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "3dc09b276be23ca46e6425b6e9aa59ae": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "0226166589e4338d1818c31cbd7422b9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "53597368391a4c077ac36c7d4a4d83e5": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "f4f88c7c58a07fed0b5f663b56aa6cd5": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "58d6ddade8196b3eb1e509af1f53a731": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "8caef2a05138d4df481c5c8ac4917680": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "0705d01a4b5fb20c3dd524a6ad1e70c2": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "f5a93daeb584d63a7cf5c86d4065b569": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "d0f6a122353f4576b3f0de14a1217a9c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7eb2afb234261d8dffb7dfa96929e7f2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "69f9eff7a43ec0b9200fc7a50b9773ef": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "ccbb9b531a133f67af92b7512dc2ce99": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "15ce88eda9837aef4902b23196be09f7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "19eb0daf21317a5f37dc07c224e2ec23": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9b30e2aff6aef48feeeadf6beef7f29a": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "0be42026a65214434e42f4051255ebac": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "266fd533fd34c5e8ed769d1443eb50e7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9b455e47ab8d011d13f5e55f0445cb86": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "266094953f64881195b7ecf8de0fce49": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "adde671679dc17cd0f764ada1102d9e3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "749e0038252e5266e16c70bb65c517c8": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "30b0674c14c5bb2c931eda0535649d3a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "ddb61a69d4a1bf1a3476e8a698df0589": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "9bb421e4e8b8c5619bb7c798811f4f0a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1d49c89c7c24577babec7bc9ecbaed85": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a0a5f20b85512bfaf0bbd17a498e2224": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "04372d0d098947561ad6be14e28f80e1": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "99b060bfe6b59c045cd7e5c6fe1abb0d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "3c2dc5db2f6c647b7422dcac2786a34d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7b813929cae4c422c19f12ffb81a3d2a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9771223d707b0c1cf0b4e00284805ee0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5095c9a2655bd5a86e177dad98502187": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a72e7c592d152e78262bf43e8511aad6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "215891a8ef66785f81390b8698fd514f": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "4ce164e47e6a1fdfb7e198a9edd93de7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "6194e9a575e880c6855356db42f068e6": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bf4dc41fd0702eeef61e8544ec7fa2a7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "fc384913943f8e1e056f67e1bcab90d3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "81bb9fab5cf930ed66b8046da6f60012": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "cd0c8ebf3e3c7d0a87f6b7252b658bc4": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c21e769b8c3e6fe697b6d777aa393567": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "fe179d679bebd0db1e35d3ed45b2e8a0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "bbd367b7bb6e979a8a46007ee5469fd5": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "b9daaa2ebd193fdf4be4d2af2392cccd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "42e1ef6a362801b7709f93541209028e": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "38d9ac4be80973a5463e3b4560f55697": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "7e959617764cc4b370286131d972fe36": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5ca493f950317b8d5e2840b7c8daadd0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+2025-11-14 20:36:21.070 [info] [main] Log level: Info
+2025-11-14 20:36:21.070 [info] [main] Validating found git in: "git"
+2025-11-14 20:36:21.070 [info] [main] Using git "2.51.1" from "git"
+2025-11-14 20:36:21.070 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-14 20:36:21.070 [info] > git rev-parse --show-toplevel [28ms]
+2025-11-14 20:36:21.070 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [22ms]
+2025-11-14 20:36:21.070 [info] [Model][openRepository] Opened repository (path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-14 20:36:21.070 [info] [Model][openRepository] Opened repository (real path): /home/nkkkta/Documents/codebase/public_html/codeigniter-test
+2025-11-14 20:36:21.070 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-14 20:36:21.070 [info] > git rev-parse --show-toplevel [9ms]
+2025-11-14 20:36:21.070 [info] > git config --get commit.template [18ms]
+2025-11-14 20:36:21.070 [info] > git rev-parse --show-toplevel [30ms]
+2025-11-14 20:36:21.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-11-14 20:36:21.085 [info] > git rev-parse --show-toplevel [10ms]
+2025-11-14 20:36:21.097 [info] > git rev-parse --show-toplevel [4ms]
+2025-11-14 20:36:21.132 [info] > git status -z -uall [25ms]
+2025-11-14 20:36:21.133 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [18ms]
+2025-11-14 20:36:22.134 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [957ms]
+2025-11-14 20:36:22.148 [info] > git rev-parse --show-toplevel [1020ms]
+2025-11-14 20:36:22.150 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-14 20:36:22.422 [info] > git config --get --local branch.main.vscode-merge-base [273ms]
+2025-11-14 20:36:22.423 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-14 20:36:22.434 [info] > git config --get commit.template [302ms]
+2025-11-14 20:36:22.454 [info] > git reflog main --grep-reflog=branch: Created from *. [21ms]
+2025-11-14 20:36:22.484 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2025-11-14 20:36:22.484 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2025-11-14 20:36:22.484 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-11-14 20:36:22.484 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-11-14 20:36:22.551 [info] > git show --textconv :app/models/News_model.php [26ms]
+2025-11-14 20:36:22.552 [info] > git merge-base refs/heads/main refs/remotes/origin/main [59ms]
+2025-11-14 20:36:22.581 [info] > git ls-files --stage -- app/models/News_model.php [40ms]
+2025-11-14 20:36:22.600 [info] > git cat-file -s 616278ef4ae96dae612aed75981037befb978d70 [10ms]
+2025-11-14 20:36:22.601 [info] > git diff --name-status -z --diff-filter=ADMR 477c08709da1fb2cbd3684a9fc515957da6400ba...refs/remotes/origin/main [28ms]
+2025-11-14 20:36:22.647 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-11-14 20:36:22.667 [info] > git check-ignore -v -z --stdin [30ms]
+2025-11-14 20:36:22.677 [info] > git status -z -uall [65ms]
+2025-11-14 20:36:22.767 [info] > git blame --root --incremental 477c08709da1fb2cbd3684a9fc515957da6400ba -- app/models/News_model.php [68ms]
+2025-11-14 20:36:35.370 [info] > git check-ignore -v -z --stdin [21ms]
+2025-11-14 20:36:37.144 [info] > git check-ignore -v -z --stdin [17ms]
+2025-11-14 20:36:39.073 [info] > git check-ignore -v -z --stdin [17ms]
+2025-11-14 20:39:37.588 [info] > git check-ignore -v -z --stdin [14ms]

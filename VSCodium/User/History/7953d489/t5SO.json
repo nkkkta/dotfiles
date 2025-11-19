@@ -1,0 +1,19 @@
+{
+  "name": "pritochka-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass scss/style.scss css/style.css",
+    "scss:watch": "sass --watch style/scss/style.scss:styles/css/style.css",
+    "dev": "concurrently \"npm run scss:watch\" \"browser-sync start --proxy 'http://localhost:8080' --files '**/*.html, css/*.css, js/*.js'\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "sass": "^1.93.3"
+  }
+}

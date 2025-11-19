@@ -1,0 +1,7 @@
+@use 'mixins';
+
+.block{
+    &-title{
+        font-size: 16px;
+    }
+}

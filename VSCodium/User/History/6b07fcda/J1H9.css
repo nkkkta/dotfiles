@@ -1,0 +1,28 @@
+:root {
+    --dark-pink: #8B008B;
+    --light-pink: #C71585;
+    --saturated-pink: #FF1493;
+}
+
+#light-pink{
+    fill: var(--light-pink);
+}
+
+#dark-pink{
+    fill: var(--dark-pink);
+}
+
+#saturated-pink{
+    fill: var(--saturated-pink);
+}
+
+#dark-pink, #saturated-pink, #light-pink{
+    transition: all 2s ease;
+}
+
+
+
+svg:hover #dark-pink{
+    transform: translate(25%);
+    opacity: 0.1;
+}

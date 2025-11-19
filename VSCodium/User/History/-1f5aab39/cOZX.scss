@@ -1,0 +1,147 @@
+/* RESTAURANT*/
+
+.restaurant-block{
+ & + &{
+  margin-top: 40px;
+ }
+ 
+ .icon{
+  flex-shrink: 0;
+  @include size(25px, 25px);
+  &-date{
+   @include icon('calendar.svg');
+  }
+  &-phone{
+   @include icon('ringing-phone.svg');
+  }
+ }
+}
+
+.restaurant-title{
+ margin-bottom: 15px;
+ .title{
+  @include font(26px, 700);
+ }
+ .subtitle{
+  @include font(20px, 600);
+ }
+}
+
+.restaurant-icon{
+
+}
+
+.restaurant-image{
+ .image{
+  img{
+   display: block;
+   max-width: 100%;
+   height: auto;
+  }
+  &-top{
+   margin-bottom: 40px;
+  }
+  &-bottom{
+   margin-bottom: 15px;
+  }
+ }
+}
+
+.restaurant-list{
+ .restaurant-item{
+  @include font(15px);
+  @include flex(center, null, nowrap);
+  gap: 10px;
+  + .restaurant-item{
+   margin-top: 15px;
+  }
+  &-img{
+   + .restaurant-item-img{
+    margin-top: 40px;
+   }
+  }
+ }
+}
+
+.restaurant-middle{
+ .restaurant-list{
+  margin-top: 25px ;
+ }
+}
+
+.restaurant-separator{
+ height: 1px;
+ width: 100%;
+ background-color: #cbd0d1;
+}
+
+.restaurant-descr{
+ .descr{
+  @include font(15px, 400, 1.6);
+ }
+}
+
+.fa-check-circle{
+ @include font(25px);
+ color: $color-blue-lite;
+}
+
+br{
+ display: none;
+}
+
+
+@media(max-width: 768px){
+ .title{
+  @include font(24px, 700);
+ }
+ 
+ .subtitle{
+  @include font(18px, 600, 1.4);
+ }
+ 
+ .image{
+  &-mobile{
+   max-width: unset !important;
+   width: 100vw;
+   margin-left: calc(50% - 50vw);
+  }
+  &-top{
+   margin-bottom: 25px;
+  }
+  &-bottom{
+   margin-top: 25px;
+  }
+ }
+ 
+ .separator{
+  &-bottom.restaurant-block{
+   margin-top: 45px;
+  }
+ }
+
+ 
+ .fa-check-circle{
+  align-self: flex-start;
+ }
+ 
+ &-block{
+  +.restaurant-block{
+   margin-top: 30px;
+  }
+ }
+
+ &-item{
+  &-img{
+   +.restaurant-item-img{
+    margin-top: 10px;
+   }
+  }
+ }
+ &-descr{
+ 
+ }
+ br{
+  display: block;
+ }
+}

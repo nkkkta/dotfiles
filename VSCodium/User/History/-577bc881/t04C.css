@@ -1,0 +1,40 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+    --google-cyan: #3971ed;
+}
+
+body{
+    background-color: var(--google-white);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+
+p {
+    background: var(--google-magenta);
+    border: 3px solid var(--google-blue);
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    background: var(--google-red);
+    border: 1px solid var(var(--google-black));
+}
+
+.positioned{
+    position: static;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--google-yellow);
+}

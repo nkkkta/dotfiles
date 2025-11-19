@@ -1,0 +1,21 @@
+@use 'mixins';
+
+.restaraunt{
+    &-block{
+
+    }
+    &-title{
+
+    }
+    &-text{
+
+    }
+    .title{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    
+    .text{
+        
+    }
+}

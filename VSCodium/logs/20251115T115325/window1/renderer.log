@@ -1,0 +1,7 @@
+2025-11-15 11:53:28.031 [info] Started local extension host with pid 38915.
+2025-11-15 11:53:35.480 [error] Cannot read properties of undefined (reading 'extensionId'): TypeError: Cannot read properties of undefined (reading 'extensionId')
+    at t (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:2745)
+    at tIt.recommendRemoteExtensionIfNeeded (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:4070:3495)
+2025-11-15 11:53:35.980 [info] [perf] Render performance baseline is 139ms
+2025-11-15 12:12:46.467 [error] [Extension Host] (node:38915) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

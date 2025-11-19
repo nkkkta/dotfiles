@@ -1,0 +1,32 @@
+//RESTAURANT
+
+.restaurant-block{
+    margin-top: 40px;
+}
+
+.restaurant-title{
+    .title{
+        @include font(32px, 700, 1.2)
+    }
+    .subtitle{
+        @include font(24px, 600, 1.2)
+    }
+}
+
+.restaurant-image{
+    img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+.restaurant-text{
+    .text{
+        margin-top: 10px;
+    }
+}
+
+.restaurant-separator{
+    
+}

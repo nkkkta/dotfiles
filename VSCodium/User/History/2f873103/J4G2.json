@@ -1,0 +1,17 @@
+{
+  "name": "tab-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --watch src/scss:dist/css",
+    "sass:build": "sass src/scss:dist/css",
+    "sass:build": "sass src/scss:dist/css --style=compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.93.1"
+  }
+}

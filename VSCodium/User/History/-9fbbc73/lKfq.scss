@@ -1,0 +1,32 @@
+// @use 'bootstrap/scss/bootstrap';
+// @use 'bootstrap-icons/font/bootstrap-icons.css';
+
+@use '../scss/utils/mixins' as m;
+@use '../scss/utils/variables' as v;
+@use 'base/reset';
+@use 'components/preheader';
+@use 'components/header';
+@use 'components/searchbox';
+@use 'components/navbar';
+@use 'components/offer';
+@use 'components/features';
+@use 'components/category_slider';
+@use 'components/product_slider';
+@use 'components/product_card';
+@use 'components/subscription-bar';
+@use 'components/footer';
+@use 'components/bottom-menu';
+@use 'vendors/owl/owl.carousel';
+
+
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: relative;
+    overflow: auto;
+}
+

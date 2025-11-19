@@ -1,0 +1,13 @@
+
+// RESETS
+
+body{
+    background-color: #57D1D6 ;
+}
+
+ul{
+    padding: 0;
+    > li{
+        list-style: none;
+    }
+}

@@ -1,0 +1,49 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 10px auto;
+}
+
+header{
+    font-size: 32px;
+    background-color: var(--google-white);
+    text-align: center;
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*border: 2px solid var(--google-black);*/
+    zoom: 1.5;
+    margin: 10px 0px;
+    background-color: var(--google-blue);
+}
+
+nav div{
+    min-width: 100px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: var(--google-black);
+}
+
+
+
+
+
+
+
+
+

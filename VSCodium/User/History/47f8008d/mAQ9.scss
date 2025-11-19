@@ -1,0 +1,21 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+
+footer{
+    background-color: v.$secondary-color;
+    .footer{
+        .footer-top{
+            padding: 60px;
+            display: flex;
+            flex-direction: column;
+            .logo{
+                display: flex;
+                .logo-text{
+                    font-size: 35px;
+                    color: v.$primary-color;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

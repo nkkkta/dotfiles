@@ -1,0 +1,25 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+
+.search-container{
+    flex: 1;
+    @include m.hflex;
+        background-color: v.$secondary-color;
+        padding: 4px;
+        form{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0;
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+            }
+            button{
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }

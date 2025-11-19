@@ -1,0 +1,22 @@
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    overflow-inline: scroll ;
+}
+
+nav ul li{
+    background: linear-gradient(white, gray);
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1empx;
+}
+

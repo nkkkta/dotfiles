@@ -1,0 +1,63 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+    --google-cyan: #3971ed;
+}
+
+body{
+    background-color: var(--google-white);
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    width: 500px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "sidebar content"
+        "footer footer";
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+}
+
+
+header{
+    grid-area: header;
+    border: 2px solid;
+    padding: 10px;
+}
+
+main{
+    grid-area: content;
+    border: 2px solid;
+    padding: 10px;
+
+    display: grid;
+    grid-template-rows: 4fr 3fr 3fr;
+    gap: inherit;
+}
+
+aside{
+    grid-area: sidebar;
+    border: 2px solid;
+    padding: 10px;
+}
+
+article{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid var(--google-blue);
+}
+
+footer{
+    grid-area: footer;
+    border: 2px solid;
+    padding: 10px;
+}

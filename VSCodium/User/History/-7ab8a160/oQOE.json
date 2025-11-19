@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Google Sans Mono'",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "editor.detectIndentation": false,
+}

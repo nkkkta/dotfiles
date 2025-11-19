@@ -1,0 +1,55 @@
+
+
+header{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 15px;
+    list-style-position: inside;
+}
+
+nav ul li{
+    flex-grow: 1;
+    /* flex-basis: 1em; */
+    background: linear-gradient(white, gray);
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu-btn{
+    display: none;
+    background: linear-gradient(green,blue);
+    border-radius: .5em;
+    max-width: 4em;
+    max-height: 4em;
+    text-align: center;
+
+}
+
+.menu-btn:focus{
+    border-color: brown;
+}
+
+@media (max-width: 500px ){
+    nav{
+        display: none;
+    }
+
+    .menu-btn{
+        display: block;
+    }
+}
+

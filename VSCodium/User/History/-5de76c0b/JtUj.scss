@@ -1,0 +1,13 @@
+@mixin font($fs:null, $fw:null, $lh:null, $c:null, $ff:null){
+    @if $fs != null {font-size: $fs;}
+    @if $fw != null {font-weight: $fw;}
+    @if $lh != null {line-height: $lh;}
+    @if $c != null {color: $c}
+    @if $ff != null {font-family: $ff;}
+}
+
+@mixin flex($align:null, $justify:null, $wrap:nowrap){
+    @if $align != null {align-items: $align;}
+    @if $justify != null {justify-content: $justify;}
+    @if $wrap != null {wrap: $wrap}
+}

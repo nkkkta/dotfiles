@@ -1,0 +1,34 @@
+.gallery{
+    &-image{
+        .image{
+            img{
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    &-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+        &-top{
+            &-left{
+                
+            }
+            &-bottom{
+
+            }
+        }
+    }
+
+    &-description{
+        width: 540px;
+        height: 240px;
+        background-color: aquamarine;
+    }
+}
+

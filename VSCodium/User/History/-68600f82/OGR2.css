@@ -1,0 +1,48 @@
+body{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 40px;
+}
+
+header{
+    font-size: 24px;
+    border: 2px solid;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 2px solid;
+    margin-bottom: 40px;
+}
+
+.nav-bar ul li{
+    margin-right: 10px;
+    
+}
+
+.side-bar ul{
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    margin-left: -40px;
+    margin-right: -40px;
+    border: 2px solid;
+}
+
+.side-bar ul li{
+    margin: 2px;
+    
+}
+
+.main{
+    display: grid;
+    grid-auto-columns: auto;
+}
+
+.main div{
+    border: 2px solid;
+}
+

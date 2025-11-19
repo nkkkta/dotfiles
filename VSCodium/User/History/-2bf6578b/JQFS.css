@@ -1,0 +1,54 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+}
+
+body{
+    background-color: var(--google-blue);
+    margin: 10px auto;
+}
+
+
+header{
+    background: var(--google-green);
+    height: 100px;
+}
+
+h1{
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+
+section{
+    display: flex;
+    zoom: 0.8;
+    justify-content: space-evenly;
+}
+
+article{
+    flex: 1 100px;
+    margin: 5px;
+    padding: 15px;
+    background: var(--google-yellow);
+}
+
+article:nth-of-type(3){
+    flex: 3 100px;
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+
+
+

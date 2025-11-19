@@ -1,0 +1,58 @@
+// 
+$imp: !important;
+
+
+/* FONT 
+--------------------------------------------------------*/
+
+$font: 'Montserrat', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+$font-awesome: 'Font Awesome 5 Pro';
+
+$font-size: 16px;
+$font-h1: 30px;
+$font-h2: 24px;
+$font-h3: 20px;
+$font-h4: 16px;
+$font-h5: 14px;
+$font-h6: 12px;
+$font-small: 0.8em;
+$font-big: 1.2em;
+
+
+/* COLORS 
+--------------------------------------------------------*/
+
+$color: 					#343434;
+$color-link: 				#019FE6;
+$color-link-hover: 			darken($color-link, 8%);
+
+$color-white: 				#FFFFFF;
+$color-black: 				#000000;
+
+$color-gray: 				#6B6B6B;
+$color-gray-lite: 			#969696;
+
+$color-error: 				#E01E1F;
+$color-success: 			#009C30;
+
+$border-color: 				#D8DBE6;
+
+$color-bg:					#F6F7FB;
+
+
+/* FORMS 
+--------------------------------------------------------*/
+
+$form-margin: 15px;
+$form-submargin: 7px;
+
+$form-height: 48px;
+$form-height-xl: 55px;
+$form-height-xs: 40px;
+
+
+/* TEMPLATE 
+--------------------------------------------------------*/
+
+$container-padding: 40px;
+$row-margin: 20px;

@@ -1,0 +1,27 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+
+.search-container{
+    flex: 1;
+    display: flex;
+    align-items: center;
+        // justify-content: center;
+        background-color: #F3F6F9;
+        padding: 4px;
+        form{
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0;
+            input{
+                border: none;
+                outline: none;
+                background-color: transparent;
+            }
+            button{
+                border: none;
+                background-color: transparent;
+            }
+        }
+    }

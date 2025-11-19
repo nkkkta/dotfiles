@@ -1,0 +1,67 @@
+@use '../utils/variables' as v;
+@use '../utils/mixins' as m;
+
+
+
+.category-slider{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 130px;
+    @media (max-width: v.$mobile-bp) {
+        margin-bottom: 30px;
+    }
+    &__item{
+        // background-image: linear-gradient(90deg,v.$secondary-color, transparent), url("../../img/stock-laptop.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1920px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        &__content{
+            grid-area: 2 / 1 / 2 / 1;
+            display: flex;
+            color: v.$primary-color;
+            flex-direction: column;
+            // align-items: flex-start;
+            margin: 0 0 40px 40px;
+            // gap: 15px;
+            @media (max-width: v.$mobile-bp){
+                margin: 0 0 60px 60px;;
+            }
+        }
+        &__header{
+            flex: 1;
+            font-weight: 700;
+            font-size: 38px;
+            padding-right: 55px;
+            margin-bottom: 18px;
+            margin-top: 0;
+            }
+        &__description{
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 1.6;
+            flex: 0 0 4rem;
+            @media(max-width: v.$mobile-bp){
+                display: none;
+                }
+        }
+        &__button{
+            flex: 1;
+            margin-top: 28px;
+            padding: 16px 20px;
+            background-color: v.$accent-color;
+            color: #FFFFFF;
+            border: none;
+            font-weight: 700;
+            font-size: 20px;
+            @media (max-width: v.$mobile-bp){
+                width: 100%;
+            }
+        }
+    }
+}

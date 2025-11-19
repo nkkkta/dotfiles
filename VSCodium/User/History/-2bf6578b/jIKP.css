@@ -1,0 +1,26 @@
+:root{
+    --google-black : #1d1f21;
+    --google-white: #c5c8c6;
+    --google-red: #cc342b;
+    --google-green: #198844;
+    --google-yellow: #fba922;
+    --google-blue: #3971ed;
+    --google-magenta: #a36ac7;
+    --google-cyan: #3971ed;
+}
+
+body{
+    background-color: var(--google-white);
+    width: 90%;
+    max-width: 960px;
+    margin: 10px auto;
+}
+
+.box{
+    
+}
+
+
+
+
+
