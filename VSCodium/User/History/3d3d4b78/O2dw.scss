@@ -1,6 +1,0 @@
-.container{
-    @include font($null, $null, $null, "monospace", $null);
-    .title{
-        @include font(22px, 700);
-    }
-}

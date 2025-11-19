@@ -1,5 +1,0 @@
-@mixin font($fs:null, $fw:null, $lh:null, $c:null, $ff:null){
-    @if $fs != null {font-size: $fs;}
-    @if $fw != null {font-weight: $fw;}
-    @if $lh != null {line-height: $lh;}
-}

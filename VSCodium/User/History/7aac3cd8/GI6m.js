@@ -1,5 +1,0 @@
-
-
-function tabSelected(){
-    alert("test");
-}

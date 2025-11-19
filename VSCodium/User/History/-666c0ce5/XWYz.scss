@@ -1,7 +1,0 @@
-@mixin hflex($gap: 0px, $jc: space-between){
-    display: flex;
-    flex-direction: row;
-    justify-content: none;
-    align-items: center;
-    gap: $gap;
-}
