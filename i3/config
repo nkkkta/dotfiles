@@ -289,7 +289,7 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 gaps inner 10
 
-gaps outer 5
+gaps outer 0
 
 for_window[class=".*"] border pixel 2]
 #smart_gaps on
